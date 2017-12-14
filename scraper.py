@@ -26,7 +26,7 @@ import lxml.html
 import re
 # import scraperwiki
 import requests
-# from lxml.html.soupparser import fromstring
+from lxml.html.soupparser import fromstring
 from time import sleep
 
 month = "Oct 17"
