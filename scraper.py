@@ -32,7 +32,9 @@ from time import sleep
 month = "Oct 17"
 
 def search(mth):
-  	request_data = { "searchCriteria.parish": ALL, "searchCriteria.ward": ALL, "month": mth, "dateType": "DC_Validated" , "searchType": "Application" }
+#  	request_data = { "searchCriteria.parish": ALL, "searchCriteria.ward": ALL, "month": mth, "dateType": "DC_Validated" , "searchType": "Application" }
+
+  	request_data = {"month": mth, "dateType": "DC_Validated" , "searchType": "Application" }
 
 	# <input type="radio" name="dateType" value="DC_Validated" checked="checked" id="dateValidated">
     
