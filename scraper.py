@@ -45,11 +45,11 @@ def search(mth):
 	
 	result_dom = fromstring(result.content)
   
-  print len(result_dom.xpath("body"))
+  	print len(result_dom.xpath("body"))
 	print len(result_dom.xpath("//div"))
   
-  results = result_dom.xpath("//ul[@id='searchresults']")
-  print len(results)
+  	results = result_dom.xpath("//ul[@id='searchresults']")
+  	print len(results)
 
 
 search(month)
